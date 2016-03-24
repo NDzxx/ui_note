@@ -1,3 +1,7 @@
-# My Awesome Book
+# 我的ios UI 笔记
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+内容来源于网络和视频
+
+copyright:GPL v2.0
+
+
