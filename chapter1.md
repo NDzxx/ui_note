@@ -14,6 +14,8 @@
 - 被连接的方法代码被删除，但是连线没有删除
   - 可能出现方法找不到的错误
   - unrecgnized selector sent to instance  
+- 连接的属性被删除，但连线没有去除
+  - setValue:for UndefinedKey:]:this ....
 如下图
 ![错误](st_err.png)
 
