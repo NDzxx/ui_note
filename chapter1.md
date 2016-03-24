@@ -11,6 +11,11 @@
    - 能让属性具备连线的功能  
 
 ##storyboard连线容易出现的问题
+- 被连接的方法代码被删除，但是连线没有删除
+  - 可能出现方法找不到的错误
+  - unrecgnized selector sent to instance  
+如下图
+![错误](st_err.png)
 
 
 
