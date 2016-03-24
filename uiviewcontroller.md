@@ -29,8 +29,9 @@
     - 一般是公司域名的反写，比如cn.com.nd
 - Bundle Identifier
     - 软件的唯一标识
-    - 一般是Organization Identifier + Product Name
-## UIView的常见属性
+    - 一般是Organization Identifier + Product Name  
+    
+##UIView的常见属性
 - NSArray *subviews
     - 所有的子控件
     - 数组元素的顺序决定着子控件的显示层级顺序（下标越大的，越显示在上面）
