@@ -1,4 +1,4 @@
-# UI基础
+# storyboard
 ##storyBoard文件的认识
 - 用来描述软件界面
 - 默认情况下，程序一启动就会加载main.storyboard
