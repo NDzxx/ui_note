@@ -26,7 +26,7 @@
     - 公司名称、组织名称
 - Organization Identifier
     - 公司的唯一标识
-    - 一般是公司域名的反写，比如com.520it
+    - 一般是公司域名的反写，比如cn.com.nd
 - Bundle Identifier
     - 软件的唯一标识
     - 一般是Organization Identifier + Product Name
