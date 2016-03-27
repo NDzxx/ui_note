@@ -36,6 +36,15 @@
     - 所有的子控件
     - 数组元素的顺序决定着子控件的显示层级顺序（下标越大的，越显示在上面）
 
+- @property(nonatomic,readonly,copy) NSArray *subviews;
+ - 获得自己的所有子控件对象
+
+- @property(nonatomic) NSInteger tag;  
+ - 控件的ID(标识)，父控件可以通过tag来找到对应的子控件
+
+- @property(nonatomic) CGAffineTransform transform;  
+ - 控件的形变属性(可以设置旋转角度、比例缩放、平移等属性)
+
 ## UIView的常见方法
 - addSubview:
     - 添加一个子控件
