@@ -36,14 +36,23 @@
     - 所有的子控件
     - 数组元素的顺序决定着子控件的显示层级顺序（下标越大的，越显示在上面）
 
-- @property(nonatomic,readonly,copy) NSArray *subviews;
+- @property(nonatomic,readonly,copy)  NSArray *subviews;
  - 获得自己的所有子控件对象
 
-- @property(nonatomic) NSInteger tag;  
+- @property(nonatomic)  NSInteger tag;  
  - 控件的ID(标识)，父控件可以通过tag来找到对应的子控件
 
-- @property(nonatomic) CGAffineTransform transform;  
+- @property(nonatomic)  CGAffineTransform transform;  
  - 控件的形变属性(可以设置旋转角度、比例缩放、平移等属性)
+
+- @property(nonatomic) CGRect frame;
+ - 控件矩形框在父控件中的位置和尺寸(以父控件的左上角为坐标原点)
+
+- @property(nonatomic) CGRect bounds;
+ - 控件矩形框的位置和尺寸(以自己左上角为坐标原点，所以bounds的x、y一般为0)
+
+- @property(nonatomic) CGPoint center;
+ - 控件中点的位置(以父控件的左上角为坐标原点)
 
 ## UIView的常见方法
 - addSubview:
