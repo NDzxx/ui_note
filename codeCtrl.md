@@ -20,7 +20,12 @@
 ```objc
 
 #pragma mark 添加按钮
-- (void)addButtonWithImage:(NSString *)image highImage:(NSString *)highImage disableImage:(NSString *)disableImage frame:(CGRect)frame tag:(NSInteger)tag action:(SEL)action
+- (void)addButtonWithImage:(NSString *)image 
+                            highImage:(NSString *)highImage 
+                            disableImage:(NSString *)disableImage 
+                            frame:(CGRect)frame 
+                            tag:(NSInteger)tag 
+                            action:(SEL)action
 {
     // 创建按钮
     UIButton *btn = [[UIButton alloc] init];
