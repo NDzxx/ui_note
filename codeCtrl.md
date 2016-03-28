@@ -45,3 +45,6 @@
     [self.view addSubview:btn];
 }
 ```
+- 控件不显示也不报错
+  - 缺失了frame
+  -  补充类似iconView.frame = CGRectMake(0, 0, 50, 50);的代码
