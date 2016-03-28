@@ -31,8 +31,10 @@
     UIButton *btn = [[UIButton alloc] init];
     // 设置背景图片
     [btn setBackgroundImage:[UIImage imageNamed:image] forState:UIControlStateNormal];
-    [btn setBackgroundImage:[UIImage imageNamed:highImage] forState:UIControlStateHighlighted];
-    [btn setBackgroundImage:[UIImage imageNamed:disableImage] forState:UIControlStateDisabled];
+    [btn setBackgroundImage:[UIImage imageNamed:highImage] 
+         forState:UIControlStateHighlighted];
+    [btn setBackgroundImage:[UIImage imageNamed:disableImage] 
+         forState:UIControlStateDisabled];
     // 设置位置和尺寸
     btn.frame = frame;
     // 监听按钮点击
