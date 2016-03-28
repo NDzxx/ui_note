@@ -47,4 +47,7 @@
 ```
 - 控件不显示也不报错
   - 缺失了frame
-  -  补充类似```objc iconView.frame = CGRectMake(0, 0, 50, 50);```的代码
+  -  补充类似
+  ```
+   iconView.frame = CGRectMake(0, 0, 50, 50);
+  ```的代码
