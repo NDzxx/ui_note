@@ -5,6 +5,7 @@
 详细内存参考ocnote block和selctor章节
 例子：  
 ```objc
+ //addButtonWithImage 的调用
  [self addButtonWithImage:@"add" 
        highImage:@"add_highlighted" 
        disableImage:@"add_disabled" 
