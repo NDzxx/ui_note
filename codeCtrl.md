@@ -57,3 +57,4 @@
   ```
    iconView.frame = CGRectMake(0, 0, 50, 50);
   ```的代码
+  - 资源价值：添加到images.xcassets下，可以整个文件夹拉入
