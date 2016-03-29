@@ -35,4 +35,4 @@
     
     shopView.frame = CGRectMake(shopX, shopY, shopW, shopH);
     [self.shopsView addSubview:shopView];
-```
+```  
