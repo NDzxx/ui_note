@@ -88,4 +88,23 @@ repeats:NO];
 - 不可以使用info.plist作为文件名，它是系统默认使用的
 
 ##懒加载
-- 使用时候才去加载对应代码，实际就是重载get方法
+- 使用时候才去加载对应代码，实际就是重载get方法  
+
+```objc  
+// 加载plist数据（比较大）
+// 懒加载：用到时再去加载，而且也只加载一次
+- (NSArray *)shops
+{
+    if (_shops == nil)  //此处同意不可调用self.shop
+    {
+        NSString *file = [[NSBundle mainBundle]  
+        pathForResource:@"shops" ofType:@"plist"];
+        self.shops = [NSArray arrayWithContentsOfFile:file];
+//        _shops = [NSArray arrayWithContentsOfFile:file];
+//        [self setShops:[NSArray arrayWithContentsOfFile:file]];
+    }
+    return _shops; //注意此处不可写为self.shop，  
+    //否则会造成循环引用,因为此处self.shop调用的是get方法
+}
+
+```
