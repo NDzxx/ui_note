@@ -106,5 +106,13 @@ repeats:NO];
     return _shops; //注意此处不可写为self.shop，  
     //否则会造成循环引用,因为此处self.shop调用的是get方法
 }
+  
+  加载数据使用时候调用
+  #pragma mark 添加
+-(void)add
+{
+  // 获得index位置对应的商品数据
+    NSDictionary *shop = self.shops[index];
+}
 
 ```
