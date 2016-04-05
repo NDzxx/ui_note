@@ -87,6 +87,12 @@ repeats:NO];
  ```
 - 不可以使用info.plist作为文件名，它是系统默认使用的
 
+## 常见问题
+- 项目里面的某个.m文件无法使用
+    - 检查：Build Phases -> Compile Sources
+- 项目里面的某个资源文件（比如plist、音频等）无法使用
+    - 检查：Build Phases -> Copy Bundle Resources
+
 ##懒加载
 - 使用时候才去加载对应代码，实际就是重载get方法  
 
