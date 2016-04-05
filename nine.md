@@ -83,3 +83,4 @@ repeats:NO];
     // 传递的是文件的全路径
     self.shops = [NSArray arrayWithContentsOfFile:file];
  ```
+- 不可以使用info.plist作为文件名，它是系统默认使用的
