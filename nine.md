@@ -71,3 +71,9 @@ repeats:NO];
 // repeats如果为YES，意味着每隔1.5s都会调用一次self的hidHUD方法
 ```
 ##加载plist
+- plist文件和资源文件丢在supporting file文件夹内
+正确加载方式：
+ ![plist_load](添加文件到项目时的正确选择.png)
+ ```objc
+ NSBundle *bundle = [NSBundle mainbundle]//主资源包
+ ```
