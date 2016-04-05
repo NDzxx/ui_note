@@ -73,9 +73,11 @@ repeats:NO];
 ##加载plist
 - plist文件和资源文件丢在supporting file文件夹内  
 - 使用  
-正确加载方式：  
+正确加载文件方式：  
+
  ![plist_load](添加文件到项目时的正确选择.png)
- ```objc
+ ```objc  
+ 
  NSBundle *bundle = [NSBundle mainbundle]//主资源包
  // 利用mainBundle获得plist文件在主资源包中的全路径
     NSString *file = 
@@ -84,3 +86,5 @@ repeats:NO];
     self.shops = [NSArray arrayWithContentsOfFile:file];
  ```
 - 不可以使用info.plist作为文件名，它是系统默认使用的
+
+##懒加载
