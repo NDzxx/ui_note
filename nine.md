@@ -77,4 +77,8 @@ repeats:NO];
  ![plist_load](添加文件到项目时的正确选择.png)
  ```objc
  NSBundle *bundle = [NSBundle mainbundle]//主资源包
+ // 利用mainBundle获得plist文件在主资源包中的全路径
+    NSString *file = 
+    [bundle pathForResource:@"shops" ofType:@"plist"];
+
  ```
