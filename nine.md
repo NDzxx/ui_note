@@ -70,3 +70,4 @@ userInfo:nil
 repeats:NO];
 // repeats如果为YES，意味着每隔1.5s都会调用一次self的hidHUD方法
 ```
+##加载plist
