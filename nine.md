@@ -80,5 +80,6 @@ repeats:NO];
  // 利用mainBundle获得plist文件在主资源包中的全路径
     NSString *file = 
     [bundle pathForResource:@"shops" ofType:@"plist"];
-
+    // 传递的是文件的全路径
+    self.shops = [NSArray arrayWithContentsOfFile:file];
  ```
