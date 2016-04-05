@@ -5,5 +5,5 @@
    * [UIViewController](uiviewcontroller.md)
        * [代码创建控件](codeCtrl.md)
        * [九宫格](nine.md)
-       * 模型
+       * [模型](model.md)
 
